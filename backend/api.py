@@ -7,7 +7,7 @@ import json
 import traceback
 from werkzeug.utils import secure_filename
 
-# Import your existing modules
+
 from input_handler import handle_input_files, cleanup_temp_files
 from ocr_extractor import DocumentExtractor
 from data_structurer import DataStructurer
@@ -18,7 +18,7 @@ REACT_BUILD_FOLDER = os.path.join(os.path.dirname(os.path.dirname(os.path.abspat
 
 app = Flask(__name__, static_folder=REACT_BUILD_FOLDER)
 
-# Configure CORS properly with specific origins and options
+
 CORS(app, origins="*", supports_credentials=True, allow_headers=["Content-Type", "Authorization"])
 
 UPLOAD_FOLDER = tempfile.gettempdir()
