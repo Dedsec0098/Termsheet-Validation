@@ -16,7 +16,6 @@ class TermValidator:
         """
         results = []
         
-        # Convert master_df to dictionary for easier access
         master_dict = {}
         for _, row in master_df.iterrows():
             term = row['Term']
