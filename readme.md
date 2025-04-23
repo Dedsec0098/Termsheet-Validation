@@ -16,7 +16,8 @@ Here are the results of our porjects :
 
 4) Finally we see the whole overview of the result in a tabular from which shows the terms that matched and not matched.
 
-       <img width="1160" alt="Screenshot 2025-04-23 at 9 02 22 PM" src="https://github.com/user-attachments/assets/add559a5-c20a-4509-a7ed-6084c0395228" />
+    <img width="1160" alt="Screenshot 2025-04-23 at 9 02 22 PM" src="https://github.com/user-attachments/assets/eec2ced6-1631-4526-9cfc-5c07829d6f19" />
+
 
 
 In our future enhancement we are working to implement a feature which will automatically extract the termsheets from the employee gmail that he/she recieved from the client and then feed it to out system to validate it. This will further enhance the efficiency and make this product more feasable.
