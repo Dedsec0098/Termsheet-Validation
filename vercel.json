@@ -9,9 +9,7 @@
       {
         "src": "frontend/package.json",
         "use": "@vercel/static-build",
-        "config": {
-          "distDir": "build"
-        }
+        "config": { "distDir": "build" }
       }
     ],
     "routes": [
@@ -19,9 +17,12 @@
         "src": "/api/(.*)",
         "dest": "backend/api.py"
       },
+      { "src": "/static/(.*)", "dest": "/static/$1" },
+      { "src": "/favicon.ico", "dest": "/favicon.ico" },
+      { "src": "/manifest.json", "dest": "/manifest.json" },
       {
         "src": "/(.*)",
-        "dest": "frontend/build/$1"
+        "dest": "/index.html"
       }
     ]
   }
